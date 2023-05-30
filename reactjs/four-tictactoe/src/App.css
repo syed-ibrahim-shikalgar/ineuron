@@ -1,0 +1,31 @@
+body {
+  background-color: #000000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 35px;
+  color: #ffffff;
+}
+
+/* button {
+  background-color: rgb(32, 158, 93);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 13.5rem;
+  font-size: 20px;
+  color: #ffffff;
+} */
